@@ -1,4 +1,4 @@
-# ucr-scheduler
+# UCR-Scheduler
 
 > **Intelligent Room Booking & Event Scheduling Agent for UC Riverside (UCR 25Live)**
 
