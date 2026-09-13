@@ -1,0 +1,76 @@
+{
+  "eval_cases": [
+    {
+      "eval_case_id": "dance_workshop",
+      "expected_category": "description_expansion",
+      "prompt": {
+        "role": "user",
+        "parts": [{"text": "dance for fun"}]
+      },
+      "event_name": "Dance Workshop"
+    },
+    {
+      "eval_case_id": "pizza_social",
+      "expected_category": "description_expansion",
+      "prompt": {
+        "role": "user",
+        "parts": [{"text": "hang out and eat pizza"}]
+      },
+      "event_name": "CS Club Social"
+    },
+    {
+      "eval_case_id": "study_group",
+      "expected_category": "description_expansion",
+      "prompt": {
+        "role": "user",
+        "parts": [{"text": "study for midterm exam"}]
+      },
+      "event_name": "Study Session"
+    },
+    {
+      "eval_case_id": "acm_hacking",
+      "expected_category": "description_expansion",
+      "prompt": {
+        "role": "user",
+        "parts": [{"text": "code some stuff and hack"}]
+      },
+      "event_name": "ACM Hackathon"
+    },
+    {
+      "eval_case_id": "bad_grammar",
+      "expected_category": "description_expansion",
+      "prompt": {
+        "role": "user",
+        "parts": [{"text": "we will read books,, n talk about it??"}]
+      },
+      "event_name": "Book Club Meeting"
+    },
+    {
+      "eval_case_id": "outdoor_bbq",
+      "expected_category": "description_expansion",
+      "prompt": {
+        "role": "user",
+        "parts": [{"text": "grilling burgers in the park"}]
+      },
+      "event_name": "End of Year BBQ"
+    },
+    {
+      "eval_case_id": "guitar_jam",
+      "expected_category": "description_expansion",
+      "prompt": {
+        "role": "user",
+        "parts": [{"text": "play some tunes on guitars"}]
+      },
+      "event_name": "Music Club Jam"
+    },
+    {
+      "eval_case_id": "career_panel",
+      "expected_category": "description_expansion",
+      "prompt": {
+        "role": "user",
+        "parts": [{"text": "talk to alumni about jobs"}]
+      },
+      "event_name": "Career Panel Discussion"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+metrics_to_run:
+  - description_expansion
+
+custom_metrics:
+  - name: description_expansion
+    custom_function: |
+      def evaluate(instance):
+          from tests.eval.description_judge import evaluate_description
+          return evaluate_description(instance)

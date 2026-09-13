@@ -1,0 +1,1397 @@
+{
+  "eval_case_results": [
+    {
+      "eval_case_index": 0,
+      "response_candidate_results": [
+        {
+          "response_index": 0,
+          "metric_results": {
+            "description_expansion": {
+              "metric_name": "description_expansion",
+              "score": 2.0,
+              "explanation": "Offline evaluation. Words: 3.",
+              "rubric_verdicts": null,
+              "raw_output": null,
+              "error_message": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "eval_case_index": 1,
+      "response_candidate_results": [
+        {
+          "response_index": 0,
+          "metric_results": {
+            "description_expansion": {
+              "metric_name": "description_expansion",
+              "score": 2.0,
+              "explanation": "Offline evaluation. Words: 5.",
+              "rubric_verdicts": null,
+              "raw_output": null,
+              "error_message": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "eval_case_index": 2,
+      "response_candidate_results": [
+        {
+          "response_index": 0,
+          "metric_results": {
+            "description_expansion": {
+              "metric_name": "description_expansion",
+              "score": 2.0,
+              "explanation": "Offline evaluation. Words: 4.",
+              "rubric_verdicts": null,
+              "raw_output": null,
+              "error_message": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "eval_case_index": 3,
+      "response_candidate_results": [
+        {
+          "response_index": 0,
+          "metric_results": {
+            "description_expansion": {
+              "metric_name": "description_expansion",
+              "score": 2.0,
+              "explanation": "Offline evaluation. Words: 5.",
+              "rubric_verdicts": null,
+              "raw_output": null,
+              "error_message": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "eval_case_index": 4,
+      "response_candidate_results": [
+        {
+          "response_index": 0,
+          "metric_results": {
+            "description_expansion": {
+              "metric_name": "description_expansion",
+              "score": 2.0,
+              "explanation": "Offline evaluation. Words: 8.",
+              "rubric_verdicts": null,
+              "raw_output": null,
+              "error_message": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "eval_case_index": 5,
+      "response_candidate_results": [
+        {
+          "response_index": 0,
+          "metric_results": {
+            "description_expansion": {
+              "metric_name": "description_expansion",
+              "score": 2.0,
+              "explanation": "Offline evaluation. Words: 5.",
+              "rubric_verdicts": null,
+              "raw_output": null,
+              "error_message": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "eval_case_index": 6,
+      "response_candidate_results": [
+        {
+          "response_index": 0,
+          "metric_results": {
+            "description_expansion": {
+              "metric_name": "description_expansion",
+              "score": 2.0,
+              "explanation": "Offline evaluation. Words: 5.",
+              "rubric_verdicts": null,
+              "raw_output": null,
+              "error_message": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "eval_case_index": 7,
+      "response_candidate_results": [
+        {
+          "response_index": 0,
+          "metric_results": {
+            "description_expansion": {
+              "metric_name": "description_expansion",
+              "score": 2.0,
+              "explanation": "Offline evaluation. Words: 5.",
+              "rubric_verdicts": null,
+              "raw_output": null,
+              "error_message": null
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "summary_metrics": [
+    {
+      "metric_name": "description_expansion",
+      "num_cases_total": 8,
+      "num_cases_valid": 8,
+      "num_cases_error": 0,
+      "mean_score": 2.0,
+      "stdev_score": 0.0,
+      "pass_rate": null
+    }
+  ],
+  "win_rates": null,
+  "evaluation_dataset": [
+    {
+      "bigquery_source": null,
+      "gcs_source": null,
+      "eval_cases": [
+        {
+          "prompt": {
+            "parts": [
+              {
+                "media_resolution": null,
+                "code_execution_result": null,
+                "executable_code": null,
+                "file_data": null,
+                "function_call": null,
+                "function_response": null,
+                "inline_data": null,
+                "text": "dance for fun",
+                "thought": null,
+                "thought_signature": null,
+                "video_metadata": null,
+                "tool_call": null,
+                "tool_response": null,
+                "part_metadata": null,
+                "audio_transcription": null
+              }
+            ],
+            "role": "user"
+          },
+          "responses": [
+            {
+              "response": {
+                "parts": [
+                  {
+                    "media_resolution": null,
+                    "code_execution_result": null,
+                    "executable_code": null,
+                    "file_data": null,
+                    "function_call": null,
+                    "function_response": null,
+                    "inline_data": null,
+                    "text": "dance for fun",
+                    "thought": null,
+                    "thought_signature": null,
+                    "video_metadata": null,
+                    "tool_call": null,
+                    "tool_response": null,
+                    "part_metadata": null,
+                    "audio_transcription": null
+                  }
+                ],
+                "role": "model"
+              }
+            }
+          ],
+          "reference": null,
+          "system_instruction": null,
+          "conversation_history": null,
+          "rubric_groups": null,
+          "eval_case_id": "dance_workshop",
+          "intermediate_events": null,
+          "agent_info": null,
+          "agent_data": {
+            "agents": {
+              "root_agent": {
+                "agent_id": "root_agent",
+                "agent_type": "SpecialistAgent",
+                "description": null,
+                "instruction": "UCR 25Live booking assistant",
+                "tools": null,
+                "sub_agents": null
+              }
+            },
+            "turns": [
+              {
+                "turn_index": 0,
+                "turn_id": null,
+                "events": [
+                  {
+                    "author": "user",
+                    "content": {
+                      "parts": [
+                        {
+                          "media_resolution": null,
+                          "code_execution_result": null,
+                          "executable_code": null,
+                          "file_data": null,
+                          "function_call": null,
+                          "function_response": null,
+                          "inline_data": null,
+                          "text": "dance for fun",
+                          "thought": null,
+                          "thought_signature": null,
+                          "video_metadata": null,
+                          "tool_call": null,
+                          "tool_response": null,
+                          "part_metadata": null,
+                          "audio_transcription": null
+                        }
+                      ],
+                      "role": "user"
+                    },
+                    "event_time": null,
+                    "state_delta": null,
+                    "active_tools": null
+                  }
+                ]
+              },
+              {
+                "turn_index": 1,
+                "turn_id": null,
+                "events": [
+                  {
+                    "author": "root_agent",
+                    "content": {
+                      "parts": [
+                        {
+                          "media_resolution": null,
+                          "code_execution_result": null,
+                          "executable_code": null,
+                          "file_data": null,
+                          "function_call": null,
+                          "function_response": null,
+                          "inline_data": null,
+                          "text": "dance for fun",
+                          "thought": null,
+                          "thought_signature": null,
+                          "video_metadata": null,
+                          "tool_call": null,
+                          "tool_response": null,
+                          "part_metadata": null,
+                          "audio_transcription": null
+                        }
+                      ],
+                      "role": "model"
+                    },
+                    "event_time": null,
+                    "state_delta": null,
+                    "active_tools": null
+                  }
+                ]
+              }
+            ]
+          },
+          "user_scenario": null,
+          "expected_category": "description_expansion",
+          "event_name": "Dance Workshop"
+        },
+        {
+          "prompt": {
+            "parts": [
+              {
+                "media_resolution": null,
+                "code_execution_result": null,
+                "executable_code": null,
+                "file_data": null,
+                "function_call": null,
+                "function_response": null,
+                "inline_data": null,
+                "text": "hang out and eat pizza",
+                "thought": null,
+                "thought_signature": null,
+                "video_metadata": null,
+                "tool_call": null,
+                "tool_response": null,
+                "part_metadata": null,
+                "audio_transcription": null
+              }
+            ],
+            "role": "user"
+          },
+          "responses": [
+            {
+              "response": {
+                "parts": [
+                  {
+                    "media_resolution": null,
+                    "code_execution_result": null,
+                    "executable_code": null,
+                    "file_data": null,
+                    "function_call": null,
+                    "function_response": null,
+                    "inline_data": null,
+                    "text": "hang out and eat pizza",
+                    "thought": null,
+                    "thought_signature": null,
+                    "video_metadata": null,
+                    "tool_call": null,
+                    "tool_response": null,
+                    "part_metadata": null,
+                    "audio_transcription": null
+                  }
+                ],
+                "role": "model"
+              }
+            }
+          ],
+          "reference": null,
+          "system_instruction": null,
+          "conversation_history": null,
+          "rubric_groups": null,
+          "eval_case_id": "pizza_social",
+          "intermediate_events": null,
+          "agent_info": null,
+          "agent_data": {
+            "agents": {
+              "root_agent": {
+                "agent_id": "root_agent",
+                "agent_type": "SpecialistAgent",
+                "description": null,
+                "instruction": "UCR 25Live booking assistant",
+                "tools": null,
+                "sub_agents": null
+              }
+            },
+            "turns": [
+              {
+                "turn_index": 0,
+                "turn_id": null,
+                "events": [
+                  {
+                    "author": "user",
+                    "content": {
+                      "parts": [
+                        {
+                          "media_resolution": null,
+                          "code_execution_result": null,
+                          "executable_code": null,
+                          "file_data": null,
+                          "function_call": null,
+                          "function_response": null,
+                          "inline_data": null,
+                          "text": "hang out and eat pizza",
+                          "thought": null,
+                          "thought_signature": null,
+                          "video_metadata": null,
+                          "tool_call": null,
+                          "tool_response": null,
+                          "part_metadata": null,
+                          "audio_transcription": null
+                        }
+                      ],
+                      "role": "user"
+                    },
+                    "event_time": null,
+                    "state_delta": null,
+                    "active_tools": null
+                  }
+                ]
+              },
+              {
+                "turn_index": 1,
+                "turn_id": null,
+                "events": [
+                  {
+                    "author": "root_agent",
+                    "content": {
+                      "parts": [
+                        {
+                          "media_resolution": null,
+                          "code_execution_result": null,
+                          "executable_code": null,
+                          "file_data": null,
+                          "function_call": null,
+                          "function_response": null,
+                          "inline_data": null,
+                          "text": "hang out and eat pizza",
+                          "thought": null,
+                          "thought_signature": null,
+                          "video_metadata": null,
+                          "tool_call": null,
+                          "tool_response": null,
+                          "part_metadata": null,
+                          "audio_transcription": null
+                        }
+                      ],
+                      "role": "model"
+                    },
+                    "event_time": null,
+                    "state_delta": null,
+                    "active_tools": null
+                  }
+                ]
+              }
+            ]
+          },
+          "user_scenario": null,
+          "expected_category": "description_expansion",
+          "event_name": "CS Club Social"
+        },
+        {
+          "prompt": {
+            "parts": [
+              {
+                "media_resolution": null,
+                "code_execution_result": null,
+                "executable_code": null,
+                "file_data": null,
+                "function_call": null,
+                "function_response": null,
+                "inline_data": null,
+                "text": "study for midterm exam",
+                "thought": null,
+                "thought_signature": null,
+                "video_metadata": null,
+                "tool_call": null,
+                "tool_response": null,
+                "part_metadata": null,
+                "audio_transcription": null
+              }
+            ],
+            "role": "user"
+          },
+          "responses": [
+            {
+              "response": {
+                "parts": [
+                  {
+                    "media_resolution": null,
+                    "code_execution_result": null,
+                    "executable_code": null,
+                    "file_data": null,
+                    "function_call": null,
+                    "function_response": null,
+                    "inline_data": null,
+                    "text": "study for midterm exam",
+                    "thought": null,
+                    "thought_signature": null,
+                    "video_metadata": null,
+                    "tool_call": null,
+                    "tool_response": null,
+                    "part_metadata": null,
+                    "audio_transcription": null
+                  }
+                ],
+                "role": "model"
+              }
+            }
+          ],
+          "reference": null,
+          "system_instruction": null,
+          "conversation_history": null,
+          "rubric_groups": null,
+          "eval_case_id": "study_group",
+          "intermediate_events": null,
+          "agent_info": null,
+          "agent_data": {
+            "agents": {
+              "root_agent": {
+                "agent_id": "root_agent",
+                "agent_type": "SpecialistAgent",
+                "description": null,
+                "instruction": "UCR 25Live booking assistant",
+                "tools": null,
+                "sub_agents": null
+              }
+            },
+            "turns": [
+              {
+                "turn_index": 0,
+                "turn_id": null,
+                "events": [
+                  {
+                    "author": "user",
+                    "content": {
+                      "parts": [
+                        {
+                          "media_resolution": null,
+                          "code_execution_result": null,
+                          "executable_code": null,
+                          "file_data": null,
+                          "function_call": null,
+                          "function_response": null,
+                          "inline_data": null,
+                          "text": "study for midterm exam",
+                          "thought": null,
+                          "thought_signature": null,
+                          "video_metadata": null,
+                          "tool_call": null,
+                          "tool_response": null,
+                          "part_metadata": null,
+                          "audio_transcription": null
+                        }
+                      ],
+                      "role": "user"
+                    },
+                    "event_time": null,
+                    "state_delta": null,
+                    "active_tools": null
+                  }
+                ]
+              },
+              {
+                "turn_index": 1,
+                "turn_id": null,
+                "events": [
+                  {
+                    "author": "root_agent",
+                    "content": {
+                      "parts": [
+                        {
+                          "media_resolution": null,
+                          "code_execution_result": null,
+                          "executable_code": null,
+                          "file_data": null,
+                          "function_call": null,
+                          "function_response": null,
+                          "inline_data": null,
+                          "text": "study for midterm exam",
+                          "thought": null,
+                          "thought_signature": null,
+                          "video_metadata": null,
+                          "tool_call": null,
+                          "tool_response": null,
+                          "part_metadata": null,
+                          "audio_transcription": null
+                        }
+                      ],
+                      "role": "model"
+                    },
+                    "event_time": null,
+                    "state_delta": null,
+                    "active_tools": null
+                  }
+                ]
+              }
+            ]
+          },
+          "user_scenario": null,
+          "expected_category": "description_expansion",
+          "event_name": "Study Session"
+        },
+        {
+          "prompt": {
+            "parts": [
+              {
+                "media_resolution": null,
+                "code_execution_result": null,
+                "executable_code": null,
+                "file_data": null,
+                "function_call": null,
+                "function_response": null,
+                "inline_data": null,
+                "text": "code some stuff and hack",
+                "thought": null,
+                "thought_signature": null,
+                "video_metadata": null,
+                "tool_call": null,
+                "tool_response": null,
+                "part_metadata": null,
+                "audio_transcription": null
+              }
+            ],
+            "role": "user"
+          },
+          "responses": [
+            {
+              "response": {
+                "parts": [
+                  {
+                    "media_resolution": null,
+                    "code_execution_result": null,
+                    "executable_code": null,
+                    "file_data": null,
+                    "function_call": null,
+                    "function_response": null,
+                    "inline_data": null,
+                    "text": "code some stuff and hack",
+                    "thought": null,
+                    "thought_signature": null,
+                    "video_metadata": null,
+                    "tool_call": null,
+                    "tool_response": null,
+                    "part_metadata": null,
+                    "audio_transcription": null
+                  }
+                ],
+                "role": "model"
+              }
+            }
+          ],
+          "reference": null,
+          "system_instruction": null,
+          "conversation_history": null,
+          "rubric_groups": null,
+          "eval_case_id": "acm_hacking",
+          "intermediate_events": null,
+          "agent_info": null,
+          "agent_data": {
+            "agents": {
+              "root_agent": {
+                "agent_id": "root_agent",
+                "agent_type": "SpecialistAgent",
+                "description": null,
+                "instruction": "UCR 25Live booking assistant",
+                "tools": null,
+                "sub_agents": null
+              }
+            },
+            "turns": [
+              {
+                "turn_index": 0,
+                "turn_id": null,
+                "events": [
+                  {
+                    "author": "user",
+                    "content": {
+                      "parts": [
+                        {
+                          "media_resolution": null,
+                          "code_execution_result": null,
+                          "executable_code": null,
+                          "file_data": null,
+                          "function_call": null,
+                          "function_response": null,
+                          "inline_data": null,
+                          "text": "code some stuff and hack",
+                          "thought": null,
+                          "thought_signature": null,
+                          "video_metadata": null,
+                          "tool_call": null,
+                          "tool_response": null,
+                          "part_metadata": null,
+                          "audio_transcription": null
+                        }
+                      ],
+                      "role": "user"
+                    },
+                    "event_time": null,
+                    "state_delta": null,
+                    "active_tools": null
+                  }
+                ]
+              },
+              {
+                "turn_index": 1,
+                "turn_id": null,
+                "events": [
+                  {
+                    "author": "root_agent",
+                    "content": {
+                      "parts": [
+                        {
+                          "media_resolution": null,
+                          "code_execution_result": null,
+                          "executable_code": null,
+                          "file_data": null,
+                          "function_call": null,
+                          "function_response": null,
+                          "inline_data": null,
+                          "text": "code some stuff and hack",
+                          "thought": null,
+                          "thought_signature": null,
+                          "video_metadata": null,
+                          "tool_call": null,
+                          "tool_response": null,
+                          "part_metadata": null,
+                          "audio_transcription": null
+                        }
+                      ],
+                      "role": "model"
+                    },
+                    "event_time": null,
+                    "state_delta": null,
+                    "active_tools": null
+                  }
+                ]
+              }
+            ]
+          },
+          "user_scenario": null,
+          "expected_category": "description_expansion",
+          "event_name": "ACM Hackathon"
+        },
+        {
+          "prompt": {
+            "parts": [
+              {
+                "media_resolution": null,
+                "code_execution_result": null,
+                "executable_code": null,
+                "file_data": null,
+                "function_call": null,
+                "function_response": null,
+                "inline_data": null,
+                "text": "we will read books,, n talk about it??",
+                "thought": null,
+                "thought_signature": null,
+                "video_metadata": null,
+                "tool_call": null,
+                "tool_response": null,
+                "part_metadata": null,
+                "audio_transcription": null
+              }
+            ],
+            "role": "user"
+          },
+          "responses": [
+            {
+              "response": {
+                "parts": [
+                  {
+                    "media_resolution": null,
+                    "code_execution_result": null,
+                    "executable_code": null,
+                    "file_data": null,
+                    "function_call": null,
+                    "function_response": null,
+                    "inline_data": null,
+                    "text": "we will read books, n talk about it?",
+                    "thought": null,
+                    "thought_signature": null,
+                    "video_metadata": null,
+                    "tool_call": null,
+                    "tool_response": null,
+                    "part_metadata": null,
+                    "audio_transcription": null
+                  }
+                ],
+                "role": "model"
+              }
+            }
+          ],
+          "reference": null,
+          "system_instruction": null,
+          "conversation_history": null,
+          "rubric_groups": null,
+          "eval_case_id": "bad_grammar",
+          "intermediate_events": null,
+          "agent_info": null,
+          "agent_data": {
+            "agents": {
+              "root_agent": {
+                "agent_id": "root_agent",
+                "agent_type": "SpecialistAgent",
+                "description": null,
+                "instruction": "UCR 25Live booking assistant",
+                "tools": null,
+                "sub_agents": null
+              }
+            },
+            "turns": [
+              {
+                "turn_index": 0,
+                "turn_id": null,
+                "events": [
+                  {
+                    "author": "user",
+                    "content": {
+                      "parts": [
+                        {
+                          "media_resolution": null,
+                          "code_execution_result": null,
+                          "executable_code": null,
+                          "file_data": null,
+                          "function_call": null,
+                          "function_response": null,
+                          "inline_data": null,
+                          "text": "we will read books,, n talk about it??",
+                          "thought": null,
+                          "thought_signature": null,
+                          "video_metadata": null,
+                          "tool_call": null,
+                          "tool_response": null,
+                          "part_metadata": null,
+                          "audio_transcription": null
+                        }
+                      ],
+                      "role": "user"
+                    },
+                    "event_time": null,
+                    "state_delta": null,
+                    "active_tools": null
+                  }
+                ]
+              },
+              {
+                "turn_index": 1,
+                "turn_id": null,
+                "events": [
+                  {
+                    "author": "root_agent",
+                    "content": {
+                      "parts": [
+                        {
+                          "media_resolution": null,
+                          "code_execution_result": null,
+                          "executable_code": null,
+                          "file_data": null,
+                          "function_call": null,
+                          "function_response": null,
+                          "inline_data": null,
+                          "text": "we will read books, n talk about it?",
+                          "thought": null,
+                          "thought_signature": null,
+                          "video_metadata": null,
+                          "tool_call": null,
+                          "tool_response": null,
+                          "part_metadata": null,
+                          "audio_transcription": null
+                        }
+                      ],
+                      "role": "model"
+                    },
+                    "event_time": null,
+                    "state_delta": null,
+                    "active_tools": null
+                  }
+                ]
+              }
+            ]
+          },
+          "user_scenario": null,
+          "expected_category": "description_expansion",
+          "event_name": "Book Club Meeting"
+        },
+        {
+          "prompt": {
+            "parts": [
+              {
+                "media_resolution": null,
+                "code_execution_result": null,
+                "executable_code": null,
+                "file_data": null,
+                "function_call": null,
+                "function_response": null,
+                "inline_data": null,
+                "text": "grilling burgers in the park",
+                "thought": null,
+                "thought_signature": null,
+                "video_metadata": null,
+                "tool_call": null,
+                "tool_response": null,
+                "part_metadata": null,
+                "audio_transcription": null
+              }
+            ],
+            "role": "user"
+          },
+          "responses": [
+            {
+              "response": {
+                "parts": [
+                  {
+                    "media_resolution": null,
+                    "code_execution_result": null,
+                    "executable_code": null,
+                    "file_data": null,
+                    "function_call": null,
+                    "function_response": null,
+                    "inline_data": null,
+                    "text": "grilling burgers in the park",
+                    "thought": null,
+                    "thought_signature": null,
+                    "video_metadata": null,
+                    "tool_call": null,
+                    "tool_response": null,
+                    "part_metadata": null,
+                    "audio_transcription": null
+                  }
+                ],
+                "role": "model"
+              }
+            }
+          ],
+          "reference": null,
+          "system_instruction": null,
+          "conversation_history": null,
+          "rubric_groups": null,
+          "eval_case_id": "outdoor_bbq",
+          "intermediate_events": null,
+          "agent_info": null,
+          "agent_data": {
+            "agents": {
+              "root_agent": {
+                "agent_id": "root_agent",
+                "agent_type": "SpecialistAgent",
+                "description": null,
+                "instruction": "UCR 25Live booking assistant",
+                "tools": null,
+                "sub_agents": null
+              }
+            },
+            "turns": [
+              {
+                "turn_index": 0,
+                "turn_id": null,
+                "events": [
+                  {
+                    "author": "user",
+                    "content": {
+                      "parts": [
+                        {
+                          "media_resolution": null,
+                          "code_execution_result": null,
+                          "executable_code": null,
+                          "file_data": null,
+                          "function_call": null,
+                          "function_response": null,
+                          "inline_data": null,
+                          "text": "grilling burgers in the park",
+                          "thought": null,
+                          "thought_signature": null,
+                          "video_metadata": null,
+                          "tool_call": null,
+                          "tool_response": null,
+                          "part_metadata": null,
+                          "audio_transcription": null
+                        }
+                      ],
+                      "role": "user"
+                    },
+                    "event_time": null,
+                    "state_delta": null,
+                    "active_tools": null
+                  }
+                ]
+              },
+              {
+                "turn_index": 1,
+                "turn_id": null,
+                "events": [
+                  {
+                    "author": "root_agent",
+                    "content": {
+                      "parts": [
+                        {
+                          "media_resolution": null,
+                          "code_execution_result": null,
+                          "executable_code": null,
+                          "file_data": null,
+                          "function_call": null,
+                          "function_response": null,
+                          "inline_data": null,
+                          "text": "grilling burgers in the park",
+                          "thought": null,
+                          "thought_signature": null,
+                          "video_metadata": null,
+                          "tool_call": null,
+                          "tool_response": null,
+                          "part_metadata": null,
+                          "audio_transcription": null
+                        }
+                      ],
+                      "role": "model"
+                    },
+                    "event_time": null,
+                    "state_delta": null,
+                    "active_tools": null
+                  }
+                ]
+              }
+            ]
+          },
+          "user_scenario": null,
+          "expected_category": "description_expansion",
+          "event_name": "End of Year BBQ"
+        },
+        {
+          "prompt": {
+            "parts": [
+              {
+                "media_resolution": null,
+                "code_execution_result": null,
+                "executable_code": null,
+                "file_data": null,
+                "function_call": null,
+                "function_response": null,
+                "inline_data": null,
+                "text": "play some tunes on guitars",
+                "thought": null,
+                "thought_signature": null,
+                "video_metadata": null,
+                "tool_call": null,
+                "tool_response": null,
+                "part_metadata": null,
+                "audio_transcription": null
+              }
+            ],
+            "role": "user"
+          },
+          "responses": [
+            {
+              "response": {
+                "parts": [
+                  {
+                    "media_resolution": null,
+                    "code_execution_result": null,
+                    "executable_code": null,
+                    "file_data": null,
+                    "function_call": null,
+                    "function_response": null,
+                    "inline_data": null,
+                    "text": "play some tunes on guitars",
+                    "thought": null,
+                    "thought_signature": null,
+                    "video_metadata": null,
+                    "tool_call": null,
+                    "tool_response": null,
+                    "part_metadata": null,
+                    "audio_transcription": null
+                  }
+                ],
+                "role": "model"
+              }
+            }
+          ],
+          "reference": null,
+          "system_instruction": null,
+          "conversation_history": null,
+          "rubric_groups": null,
+          "eval_case_id": "guitar_jam",
+          "intermediate_events": null,
+          "agent_info": null,
+          "agent_data": {
+            "agents": {
+              "root_agent": {
+                "agent_id": "root_agent",
+                "agent_type": "SpecialistAgent",
+                "description": null,
+                "instruction": "UCR 25Live booking assistant",
+                "tools": null,
+                "sub_agents": null
+              }
+            },
+            "turns": [
+              {
+                "turn_index": 0,
+                "turn_id": null,
+                "events": [
+                  {
+                    "author": "user",
+                    "content": {
+                      "parts": [
+                        {
+                          "media_resolution": null,
+                          "code_execution_result": null,
+                          "executable_code": null,
+                          "file_data": null,
+                          "function_call": null,
+                          "function_response": null,
+                          "inline_data": null,
+                          "text": "play some tunes on guitars",
+                          "thought": null,
+                          "thought_signature": null,
+                          "video_metadata": null,
+                          "tool_call": null,
+                          "tool_response": null,
+                          "part_metadata": null,
+                          "audio_transcription": null
+                        }
+                      ],
+                      "role": "user"
+                    },
+                    "event_time": null,
+                    "state_delta": null,
+                    "active_tools": null
+                  }
+                ]
+              },
+              {
+                "turn_index": 1,
+                "turn_id": null,
+                "events": [
+                  {
+                    "author": "root_agent",
+                    "content": {
+                      "parts": [
+                        {
+                          "media_resolution": null,
+                          "code_execution_result": null,
+                          "executable_code": null,
+                          "file_data": null,
+                          "function_call": null,
+                          "function_response": null,
+                          "inline_data": null,
+                          "text": "play some tunes on guitars",
+                          "thought": null,
+                          "thought_signature": null,
+                          "video_metadata": null,
+                          "tool_call": null,
+                          "tool_response": null,
+                          "part_metadata": null,
+                          "audio_transcription": null
+                        }
+                      ],
+                      "role": "model"
+                    },
+                    "event_time": null,
+                    "state_delta": null,
+                    "active_tools": null
+                  }
+                ]
+              }
+            ]
+          },
+          "user_scenario": null,
+          "expected_category": "description_expansion",
+          "event_name": "Music Club Jam"
+        },
+        {
+          "prompt": {
+            "parts": [
+              {
+                "media_resolution": null,
+                "code_execution_result": null,
+                "executable_code": null,
+                "file_data": null,
+                "function_call": null,
+                "function_response": null,
+                "inline_data": null,
+                "text": "talk to alumni about jobs",
+                "thought": null,
+                "thought_signature": null,
+                "video_metadata": null,
+                "tool_call": null,
+                "tool_response": null,
+                "part_metadata": null,
+                "audio_transcription": null
+              }
+            ],
+            "role": "user"
+          },
+          "responses": [
+            {
+              "response": {
+                "parts": [
+                  {
+                    "media_resolution": null,
+                    "code_execution_result": null,
+                    "executable_code": null,
+                    "file_data": null,
+                    "function_call": null,
+                    "function_response": null,
+                    "inline_data": null,
+                    "text": "talk to alumni about jobs",
+                    "thought": null,
+                    "thought_signature": null,
+                    "video_metadata": null,
+                    "tool_call": null,
+                    "tool_response": null,
+                    "part_metadata": null,
+                    "audio_transcription": null
+                  }
+                ],
+                "role": "model"
+              }
+            }
+          ],
+          "reference": null,
+          "system_instruction": null,
+          "conversation_history": null,
+          "rubric_groups": null,
+          "eval_case_id": "career_panel",
+          "intermediate_events": null,
+          "agent_info": null,
+          "agent_data": {
+            "agents": {
+              "root_agent": {
+                "agent_id": "root_agent",
+                "agent_type": "SpecialistAgent",
+                "description": null,
+                "instruction": "UCR 25Live booking assistant",
+                "tools": null,
+                "sub_agents": null
+              }
+            },
+            "turns": [
+              {
+                "turn_index": 0,
+                "turn_id": null,
+                "events": [
+                  {
+                    "author": "user",
+                    "content": {
+                      "parts": [
+                        {
+                          "media_resolution": null,
+                          "code_execution_result": null,
+                          "executable_code": null,
+                          "file_data": null,
+                          "function_call": null,
+                          "function_response": null,
+                          "inline_data": null,
+                          "text": "talk to alumni about jobs",
+                          "thought": null,
+                          "thought_signature": null,
+                          "video_metadata": null,
+                          "tool_call": null,
+                          "tool_response": null,
+                          "part_metadata": null,
+                          "audio_transcription": null
+                        }
+                      ],
+                      "role": "user"
+                    },
+                    "event_time": null,
+                    "state_delta": null,
+                    "active_tools": null
+                  }
+                ]
+              },
+              {
+                "turn_index": 1,
+                "turn_id": null,
+                "events": [
+                  {
+                    "author": "root_agent",
+                    "content": {
+                      "parts": [
+                        {
+                          "media_resolution": null,
+                          "code_execution_result": null,
+                          "executable_code": null,
+                          "file_data": null,
+                          "function_call": null,
+                          "function_response": null,
+                          "inline_data": null,
+                          "text": "talk to alumni about jobs",
+                          "thought": null,
+                          "thought_signature": null,
+                          "video_metadata": null,
+                          "tool_call": null,
+                          "tool_response": null,
+                          "part_metadata": null,
+                          "audio_transcription": null
+                        }
+                      ],
+                      "role": "model"
+                    },
+                    "event_time": null,
+                    "state_delta": null,
+                    "active_tools": null
+                  }
+                ]
+              }
+            ]
+          },
+          "user_scenario": null,
+          "expected_category": "description_expansion",
+          "event_name": "Career Panel Discussion"
+        }
+      ],
+      "eval_dataset_df": null,
+      "candidate_name": null
+    }
+  ],
+  "metadata": {
+    "candidate_names": [
+      "candidate_1"
+    ],
+    "dataset_name": null,
+    "dataset_id": null,
+    "creation_timestamp": "2026-08-20T17:56:14.978610Z",
+    "dataset": [
+      {
+        "prompt_display_text": "dance for fun",
+        "prompt_raw_json": "{\n  \"parts\": [\n    {\n      \"text\": \"dance for fun\"\n    }\n  ],\n  \"role\": \"user\"\n}",
+        "reference": "",
+        "reference_raw_json": "",
+        "response_display_text": "dance for fun",
+        "response_raw_json": "{\n  \"parts\": [\n    {\n      \"text\": \"dance for fun\"\n    }\n  ],\n  \"role\": \"model\"\n}",
+        "intermediate_events": null,
+        "agent_data": "{\"agents\": {\"root_agent\": {\"agent_id\": \"root_agent\", \"agent_type\": \"SpecialistAgent\", \"instruction\": \"UCR 25Live booking assistant\"}}, \"turns\": [{\"turn_index\": 0, \"events\": [{\"author\": \"user\", \"content\": {\"parts\": [{\"text\": \"dance for fun\"}], \"role\": \"user\"}}]}, {\"turn_index\": 1, \"events\": [{\"author\": \"root_agent\", \"content\": {\"parts\": [{\"text\": \"dance for fun\"}], \"role\": \"model\"}}]}]}"
+      },
+      {
+        "prompt_display_text": "hang out and eat pizza",
+        "prompt_raw_json": "{\n  \"parts\": [\n    {\n      \"text\": \"hang out and eat pizza\"\n    }\n  ],\n  \"role\": \"user\"\n}",
+        "reference": "",
+        "reference_raw_json": "",
+        "response_display_text": "hang out and eat pizza",
+        "response_raw_json": "{\n  \"parts\": [\n    {\n      \"text\": \"hang out and eat pizza\"\n    }\n  ],\n  \"role\": \"model\"\n}",
+        "intermediate_events": null,
+        "agent_data": "{\"agents\": {\"root_agent\": {\"agent_id\": \"root_agent\", \"agent_type\": \"SpecialistAgent\", \"instruction\": \"UCR 25Live booking assistant\"}}, \"turns\": [{\"turn_index\": 0, \"events\": [{\"author\": \"user\", \"content\": {\"parts\": [{\"text\": \"hang out and eat pizza\"}], \"role\": \"user\"}}]}, {\"turn_index\": 1, \"events\": [{\"author\": \"root_agent\", \"content\": {\"parts\": [{\"text\": \"hang out and eat pizza\"}], \"role\": \"model\"}}]}]}"
+      },
+      {
+        "prompt_display_text": "study for midterm exam",
+        "prompt_raw_json": "{\n  \"parts\": [\n    {\n      \"text\": \"study for midterm exam\"\n    }\n  ],\n  \"role\": \"user\"\n}",
+        "reference": "",
+        "reference_raw_json": "",
+        "response_display_text": "study for midterm exam",
+        "response_raw_json": "{\n  \"parts\": [\n    {\n      \"text\": \"study for midterm exam\"\n    }\n  ],\n  \"role\": \"model\"\n}",
+        "intermediate_events": null,
+        "agent_data": "{\"agents\": {\"root_agent\": {\"agent_id\": \"root_agent\", \"agent_type\": \"SpecialistAgent\", \"instruction\": \"UCR 25Live booking assistant\"}}, \"turns\": [{\"turn_index\": 0, \"events\": [{\"author\": \"user\", \"content\": {\"parts\": [{\"text\": \"study for midterm exam\"}], \"role\": \"user\"}}]}, {\"turn_index\": 1, \"events\": [{\"author\": \"root_agent\", \"content\": {\"parts\": [{\"text\": \"study for midterm exam\"}], \"role\": \"model\"}}]}]}"
+      },
+      {
+        "prompt_display_text": "code some stuff and hack",
+        "prompt_raw_json": "{\n  \"parts\": [\n    {\n      \"text\": \"code some stuff and hack\"\n    }\n  ],\n  \"role\": \"user\"\n}",
+        "reference": "",
+        "reference_raw_json": "",
+        "response_display_text": "code some stuff and hack",
+        "response_raw_json": "{\n  \"parts\": [\n    {\n      \"text\": \"code some stuff and hack\"\n    }\n  ],\n  \"role\": \"model\"\n}",
+        "intermediate_events": null,
+        "agent_data": "{\"agents\": {\"root_agent\": {\"agent_id\": \"root_agent\", \"agent_type\": \"SpecialistAgent\", \"instruction\": \"UCR 25Live booking assistant\"}}, \"turns\": [{\"turn_index\": 0, \"events\": [{\"author\": \"user\", \"content\": {\"parts\": [{\"text\": \"code some stuff and hack\"}], \"role\": \"user\"}}]}, {\"turn_index\": 1, \"events\": [{\"author\": \"root_agent\", \"content\": {\"parts\": [{\"text\": \"code some stuff and hack\"}], \"role\": \"model\"}}]}]}"
+      },
+      {
+        "prompt_display_text": "we will read books,, n talk about it??",
+        "prompt_raw_json": "{\n  \"parts\": [\n    {\n      \"text\": \"we will read books,, n talk about it??\"\n    }\n  ],\n  \"role\": \"user\"\n}",
+        "reference": "",
+        "reference_raw_json": "",
+        "response_display_text": "we will read books, n talk about it?",
+        "response_raw_json": "{\n  \"parts\": [\n    {\n      \"text\": \"we will read books, n talk about it?\"\n    }\n  ],\n  \"role\": \"model\"\n}",
+        "intermediate_events": null,
+        "agent_data": "{\"agents\": {\"root_agent\": {\"agent_id\": \"root_agent\", \"agent_type\": \"SpecialistAgent\", \"instruction\": \"UCR 25Live booking assistant\"}}, \"turns\": [{\"turn_index\": 0, \"events\": [{\"author\": \"user\", \"content\": {\"parts\": [{\"text\": \"we will read books,, n talk about it??\"}], \"role\": \"user\"}}]}, {\"turn_index\": 1, \"events\": [{\"author\": \"root_agent\", \"content\": {\"parts\": [{\"text\": \"we will read books, n talk about it?\"}], \"role\": \"model\"}}]}]}"
+      },
+      {
+        "prompt_display_text": "grilling burgers in the park",
+        "prompt_raw_json": "{\n  \"parts\": [\n    {\n      \"text\": \"grilling burgers in the park\"\n    }\n  ],\n  \"role\": \"user\"\n}",
+        "reference": "",
+        "reference_raw_json": "",
+        "response_display_text": "grilling burgers in the park",
+        "response_raw_json": "{\n  \"parts\": [\n    {\n      \"text\": \"grilling burgers in the park\"\n    }\n  ],\n  \"role\": \"model\"\n}",
+        "intermediate_events": null,
+        "agent_data": "{\"agents\": {\"root_agent\": {\"agent_id\": \"root_agent\", \"agent_type\": \"SpecialistAgent\", \"instruction\": \"UCR 25Live booking assistant\"}}, \"turns\": [{\"turn_index\": 0, \"events\": [{\"author\": \"user\", \"content\": {\"parts\": [{\"text\": \"grilling burgers in the park\"}], \"role\": \"user\"}}]}, {\"turn_index\": 1, \"events\": [{\"author\": \"root_agent\", \"content\": {\"parts\": [{\"text\": \"grilling burgers in the park\"}], \"role\": \"model\"}}]}]}"
+      },
+      {
+        "prompt_display_text": "play some tunes on guitars",
+        "prompt_raw_json": "{\n  \"parts\": [\n    {\n      \"text\": \"play some tunes on guitars\"\n    }\n  ],\n  \"role\": \"user\"\n}",
+        "reference": "",
+        "reference_raw_json": "",
+        "response_display_text": "play some tunes on guitars",
+        "response_raw_json": "{\n  \"parts\": [\n    {\n      \"text\": \"play some tunes on guitars\"\n    }\n  ],\n  \"role\": \"model\"\n}",
+        "intermediate_events": null,
+        "agent_data": "{\"agents\": {\"root_agent\": {\"agent_id\": \"root_agent\", \"agent_type\": \"SpecialistAgent\", \"instruction\": \"UCR 25Live booking assistant\"}}, \"turns\": [{\"turn_index\": 0, \"events\": [{\"author\": \"user\", \"content\": {\"parts\": [{\"text\": \"play some tunes on guitars\"}], \"role\": \"user\"}}]}, {\"turn_index\": 1, \"events\": [{\"author\": \"root_agent\", \"content\": {\"parts\": [{\"text\": \"play some tunes on guitars\"}], \"role\": \"model\"}}]}]}"
+      },
+      {
+        "prompt_display_text": "talk to alumni about jobs",
+        "prompt_raw_json": "{\n  \"parts\": [\n    {\n      \"text\": \"talk to alumni about jobs\"\n    }\n  ],\n  \"role\": \"user\"\n}",
+        "reference": "",
+        "reference_raw_json": "",
+        "response_display_text": "talk to alumni about jobs",
+        "response_raw_json": "{\n  \"parts\": [\n    {\n      \"text\": \"talk to alumni about jobs\"\n    }\n  ],\n  \"role\": \"model\"\n}",
+        "intermediate_events": null,
+        "agent_data": "{\"agents\": {\"root_agent\": {\"agent_id\": \"root_agent\", \"agent_type\": \"SpecialistAgent\", \"instruction\": \"UCR 25Live booking assistant\"}}, \"turns\": [{\"turn_index\": 0, \"events\": [{\"author\": \"user\", \"content\": {\"parts\": [{\"text\": \"talk to alumni about jobs\"}], \"role\": \"user\"}}]}, {\"turn_index\": 1, \"events\": [{\"author\": \"root_agent\", \"content\": {\"parts\": [{\"text\": \"talk to alumni about jobs\"}], \"role\": \"model\"}}]}]}"
+      }
+    ]
+  },
+  "agent_info": null
+}

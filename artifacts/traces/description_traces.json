@@ -1,0 +1,548 @@
+{
+  "eval_cases": [
+    {
+      "eval_case_id": "dance_workshop",
+      "expected_category": "description_expansion",
+      "event_name": "Dance Workshop",
+      "prompt": {
+        "role": "user",
+        "parts": [
+          {
+            "text": "dance for fun"
+          }
+        ]
+      },
+      "responses": [
+        {
+          "response": {
+            "role": "model",
+            "parts": [
+              {
+                "text": "This interactive dance workshop offers participants a recreational environment to learn basic choreography and fundamental steps. Guided by an instructor, attendees will engage in a light warm-up, practice accessible routines, and experience enjoyable, expressive movement suitable for all experience levels."
+              }
+            ]
+          }
+        }
+      ],
+      "agent_data": {
+        "agents": {
+          "root_agent": {
+            "agent_id": "root_agent",
+            "agent_type": "SpecialistAgent",
+            "instruction": "UCR 25Live booking assistant"
+          }
+        },
+        "turns": [
+          {
+            "turn_index": 0,
+            "events": [
+              {
+                "author": "user",
+                "content": {
+                  "role": "user",
+                  "parts": [
+                    {
+                      "text": "dance for fun"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "turn_index": 1,
+            "events": [
+              {
+                "author": "root_agent",
+                "content": {
+                  "role": "model",
+                  "parts": [
+                    {
+                      "text": "This interactive dance workshop offers participants a recreational environment to learn basic choreography and fundamental steps. Guided by an instructor, attendees will engage in a light warm-up, practice accessible routines, and experience enjoyable, expressive movement suitable for all experience levels."
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "eval_case_id": "pizza_social",
+      "expected_category": "description_expansion",
+      "event_name": "CS Club Social",
+      "prompt": {
+        "role": "user",
+        "parts": [
+          {
+            "text": "hang out and eat pizza"
+          }
+        ]
+      },
+      "responses": [
+        {
+          "response": {
+            "role": "model",
+            "parts": [
+              {
+                "text": "Computer Science Club members will gather for an informal networking social featuring pizza and refreshments. Attendees will participate in icebreaker activities, discuss upcoming tech projects, and connect with peers to build a supportive academic community."
+              }
+            ]
+          }
+        }
+      ],
+      "agent_data": {
+        "agents": {
+          "root_agent": {
+            "agent_id": "root_agent",
+            "agent_type": "SpecialistAgent",
+            "instruction": "UCR 25Live booking assistant"
+          }
+        },
+        "turns": [
+          {
+            "turn_index": 0,
+            "events": [
+              {
+                "author": "user",
+                "content": {
+                  "role": "user",
+                  "parts": [
+                    {
+                      "text": "hang out and eat pizza"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "turn_index": 1,
+            "events": [
+              {
+                "author": "root_agent",
+                "content": {
+                  "role": "model",
+                  "parts": [
+                    {
+                      "text": "Computer Science Club members will gather for an informal networking social featuring pizza and refreshments. Attendees will participate in icebreaker activities, discuss upcoming tech projects, and connect with peers to build a supportive academic community."
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "eval_case_id": "study_group",
+      "expected_category": "description_expansion",
+      "event_name": "Study Session",
+      "prompt": {
+        "role": "user",
+        "parts": [
+          {
+            "text": "study for midterm exam"
+          }
+        ]
+      },
+      "responses": [
+        {
+          "response": {
+            "role": "model",
+            "parts": [
+              {
+                "text": "Participants will review core course concepts, work through practice problems, and discuss challenging topics in preparation for the upcoming midterm exam. This structured study session provides a focused environment for collaborative peer learning and quiet individual review."
+              }
+            ]
+          }
+        }
+      ],
+      "agent_data": {
+        "agents": {
+          "root_agent": {
+            "agent_id": "root_agent",
+            "agent_type": "SpecialistAgent",
+            "instruction": "UCR 25Live booking assistant"
+          }
+        },
+        "turns": [
+          {
+            "turn_index": 0,
+            "events": [
+              {
+                "author": "user",
+                "content": {
+                  "role": "user",
+                  "parts": [
+                    {
+                      "text": "study for midterm exam"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "turn_index": 1,
+            "events": [
+              {
+                "author": "root_agent",
+                "content": {
+                  "role": "model",
+                  "parts": [
+                    {
+                      "text": "Participants will review core course concepts, work through practice problems, and discuss challenging topics in preparation for the upcoming midterm exam. This structured study session provides a focused environment for collaborative peer learning and quiet individual review."
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "eval_case_id": "acm_hacking",
+      "expected_category": "description_expansion",
+      "event_name": "ACM Hackathon",
+      "prompt": {
+        "role": "user",
+        "parts": [
+          {
+            "text": "code some stuff and hack"
+          }
+        ]
+      },
+      "responses": [
+        {
+          "response": {
+            "role": "model",
+            "parts": [
+              {
+                "text": "Participants will collaborate in teams to develop innovative software solutions, write code, and build functional prototypes within a set timeframe, concluding with project demonstrations and peer evaluations."
+              }
+            ]
+          }
+        }
+      ],
+      "agent_data": {
+        "agents": {
+          "root_agent": {
+            "agent_id": "root_agent",
+            "agent_type": "SpecialistAgent",
+            "instruction": "UCR 25Live booking assistant"
+          }
+        },
+        "turns": [
+          {
+            "turn_index": 0,
+            "events": [
+              {
+                "author": "user",
+                "content": {
+                  "role": "user",
+                  "parts": [
+                    {
+                      "text": "code some stuff and hack"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "turn_index": 1,
+            "events": [
+              {
+                "author": "root_agent",
+                "content": {
+                  "role": "model",
+                  "parts": [
+                    {
+                      "text": "Participants will collaborate in teams to develop innovative software solutions, write code, and build functional prototypes within a set timeframe, concluding with project demonstrations and peer evaluations."
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "eval_case_id": "bad_grammar",
+      "expected_category": "description_expansion",
+      "event_name": "Book Club Meeting",
+      "prompt": {
+        "role": "user",
+        "parts": [
+          {
+            "text": "we will read books,, n talk about it??"
+          }
+        ]
+      },
+      "responses": [
+        {
+          "response": {
+            "role": "model",
+            "parts": [
+              {
+                "text": "Participants will analyze selected literary works, engage in group discussions regarding key themes and character development, and share personal perspectives. The meeting will also include time for selecting upcoming reading materials and organizing future group schedules."
+              }
+            ]
+          }
+        }
+      ],
+      "agent_data": {
+        "agents": {
+          "root_agent": {
+            "agent_id": "root_agent",
+            "agent_type": "SpecialistAgent",
+            "instruction": "UCR 25Live booking assistant"
+          }
+        },
+        "turns": [
+          {
+            "turn_index": 0,
+            "events": [
+              {
+                "author": "user",
+                "content": {
+                  "role": "user",
+                  "parts": [
+                    {
+                      "text": "we will read books,, n talk about it??"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "turn_index": 1,
+            "events": [
+              {
+                "author": "root_agent",
+                "content": {
+                  "role": "model",
+                  "parts": [
+                    {
+                      "text": "Participants will analyze selected literary works, engage in group discussions regarding key themes and character development, and share personal perspectives. The meeting will also include time for selecting upcoming reading materials and organizing future group schedules."
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "eval_case_id": "outdoor_bbq",
+      "expected_category": "description_expansion",
+      "event_name": "End of Year BBQ",
+      "prompt": {
+        "role": "user",
+        "parts": [
+          {
+            "text": "grilling burgers in the park"
+          }
+        ]
+      },
+      "responses": [
+        {
+          "response": {
+            "role": "model",
+            "parts": [
+              {
+                "text": "This end-of-year gathering features an outdoor park barbecue celebrating the conclusion of the academic year. Participants will enjoy freshly grilled burgers, side dishes, and lawn games while socializing with peers and staff in a relaxed park setting."
+              }
+            ]
+          }
+        }
+      ],
+      "agent_data": {
+        "agents": {
+          "root_agent": {
+            "agent_id": "root_agent",
+            "agent_type": "SpecialistAgent",
+            "instruction": "UCR 25Live booking assistant"
+          }
+        },
+        "turns": [
+          {
+            "turn_index": 0,
+            "events": [
+              {
+                "author": "user",
+                "content": {
+                  "role": "user",
+                  "parts": [
+                    {
+                      "text": "grilling burgers in the park"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "turn_index": 1,
+            "events": [
+              {
+                "author": "root_agent",
+                "content": {
+                  "role": "model",
+                  "parts": [
+                    {
+                      "text": "This end-of-year gathering features an outdoor park barbecue celebrating the conclusion of the academic year. Participants will enjoy freshly grilled burgers, side dishes, and lawn games while socializing with peers and staff in a relaxed park setting."
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "eval_case_id": "guitar_jam",
+      "expected_category": "description_expansion",
+      "event_name": "Music Club Jam",
+      "prompt": {
+        "role": "user",
+        "parts": [
+          {
+            "text": "play some tunes on guitars"
+          }
+        ]
+      },
+      "responses": [
+        {
+          "response": {
+            "role": "model",
+            "parts": [
+              {
+                "text": "Members of the Music Club will gather to practice and perform acoustic and electric guitar pieces. Participants will collaborate on various song selections, share playing techniques, and improvise musical arrangements in an informal group setting."
+              }
+            ]
+          }
+        }
+      ],
+      "agent_data": {
+        "agents": {
+          "root_agent": {
+            "agent_id": "root_agent",
+            "agent_type": "SpecialistAgent",
+            "instruction": "UCR 25Live booking assistant"
+          }
+        },
+        "turns": [
+          {
+            "turn_index": 0,
+            "events": [
+              {
+                "author": "user",
+                "content": {
+                  "role": "user",
+                  "parts": [
+                    {
+                      "text": "play some tunes on guitars"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "turn_index": 1,
+            "events": [
+              {
+                "author": "root_agent",
+                "content": {
+                  "role": "model",
+                  "parts": [
+                    {
+                      "text": "Members of the Music Club will gather to practice and perform acoustic and electric guitar pieces. Participants will collaborate on various song selections, share playing techniques, and improvise musical arrangements in an informal group setting."
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "eval_case_id": "career_panel",
+      "expected_category": "description_expansion",
+      "event_name": "Career Panel Discussion",
+      "prompt": {
+        "role": "user",
+        "parts": [
+          {
+            "text": "talk to alumni about jobs"
+          }
+        ]
+      },
+      "responses": [
+        {
+          "response": {
+            "role": "model",
+            "parts": [
+              {
+                "text": "This event features a panel of distinguished UC Riverside alumni sharing career insights, industry trends, and job search strategies. Participants will engage in a Q&A session covering post-graduation career pathways, professional development, and effective networking techniques."
+              }
+            ]
+          }
+        }
+      ],
+      "agent_data": {
+        "agents": {
+          "root_agent": {
+            "agent_id": "root_agent",
+            "agent_type": "SpecialistAgent",
+            "instruction": "UCR 25Live booking assistant"
+          }
+        },
+        "turns": [
+          {
+            "turn_index": 0,
+            "events": [
+              {
+                "author": "user",
+                "content": {
+                  "role": "user",
+                  "parts": [
+                    {
+                      "text": "talk to alumni about jobs"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "turn_index": 1,
+            "events": [
+              {
+                "author": "root_agent",
+                "content": {
+                  "role": "model",
+                  "parts": [
+                    {
+                      "text": "This event features a panel of distinguished UC Riverside alumni sharing career insights, industry trends, and job search strategies. Participants will engage in a Q&A session covering post-graduation career pathways, professional development, and effective networking techniques."
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
